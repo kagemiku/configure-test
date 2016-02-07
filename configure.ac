@@ -4,6 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT([test], [1.0], [kagemiku@gmail.com])
 AM_INIT_AUTOMAKE([foreign])
+AC_PROG_RANLIB
 AC_CONFIG_SRCDIR([src/book.cpp])
 AC_CONFIG_HEADERS([config.h])
 
